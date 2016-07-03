@@ -3,7 +3,7 @@
 เหตุผลเพื่อต้องการให้มีการป้องกัน rancher server ล้ม ซึ่งหากมี node เดียวก็จะล้มได้ทั้งระบบหากไม่มีระบบสำรองทำงานแทน
 
 ## สร้างฐานข้อมูลให้กับ Rancher บน Node1 
-Donwload rancher/dump/rancher.sql ไปไว้ที่ node1 ใน /data/rancher/dump/
+Donwload rancher.sql ไปไว้ที่ node1 ใน /data/rancher/dump/
 
 ```Bash
 sudo docker run --name mariadb 
